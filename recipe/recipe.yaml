@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: aws-c-sdkutils
-  version: "0.2.8"
+  version: "0.2.9"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/awslabs/${{ name }}/archive/v${{ version }}.tar.gz
-  sha256: 2af9e783869ae6ebf97e91043e9783a92778adcebebd45f9769519162113913c
+  sha256: 14fe900f80c3b9f5e53a783d9ac0865ed9ba1ae63b67744b9f82a8b3194a4388
 
 build:
   number: 0
