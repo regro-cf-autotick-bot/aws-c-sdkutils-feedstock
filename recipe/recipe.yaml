@@ -24,7 +24,7 @@ requirements:
   host:
     - aws-c-common
   run_exports:
-    - ${{ pin_subpackage("aws-c-sdkutils", upper_bound="x.x.x") }}
+    - ${{ pin_subpackage("aws-c-sdkutils", upper_bound="x.x") }}
 
 tests:
   - script:
